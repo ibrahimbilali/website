@@ -1,0 +1,135 @@
+*{
+    padding: 4;
+    padding: 0;
+}
+body{
+    background-image: 
+    url("image/bait.jpg"),
+    url('image/mimi.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: center, top right;
+    background-size: 350px, 400px;
+    padding: 0;
+    margin: 2;
+
+}
+
+.main-part{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.main-part h1{
+    padding-bottom: .5rem;
+    padding-right: 7rem;
+    color: yellow;
+}
+
+.main-part p{
+    color: yellow;
+    font-size: 22px;
+}
+
+.parts h1{
+    color: yellow;
+    text-align: center;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-around;
+     padding-right: 5rem;
+}
+
+.part1 button{
+    padding: 1rem 2.5rem 1rem 2.5rem;
+}
+.btn1{
+    border: none;
+    background-color: red;
+    color: #FFFFFF;
+}
+
+.btn2{
+    border: none;
+    background-color: #4461f2;
+    color: #ffffff;
+}
+.btn2 span{
+    background-color: #4461f2;
+    color: hsl(60, 100%, 50%);
+}
+
+.btn3{
+    border: none;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.btn4{
+    border: none;
+    background-color: rgb(252, 130, 0);
+    color: #ffffff;
+}
+
+
+.parts1 li{
+    color: #ffffff;
+    padding: 5px 2px;
+    border-radius: 3px;
+    text-align: left: ;
+    list-style: none;
+    font-size:24px;
+
+
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 20px;
+    overflow: auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+.service-card {
+    background-color: #f1f1f1;
+    border-left: 5px solid #4caf50;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    flex-shrink: 0;
+    min-width: 180px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vodacom {
+    background-color: #e60000;
+    border-left: 6px solid #fff; 
+}
+
+.Yas{
+    background-color: #002f6c;
+    border-left: 6px solid #fff; 
+}
+.airtel {
+    background-color: #d51a1a;
+    border-left: 6px solid #fff; 
+
+}
+.halotel {
+    background-color: rgb(252, 130, 0);
+    border-left: 6px solid #fff; 
+}
+.highlight-yellow {
+    color: yellow;
+    font-weight: bold;
+}
+.parts1 h3{
+text-align: left;
+font-size: 20px;
+color: white;
+font-weight: bold;
+list-style: none;
+}
